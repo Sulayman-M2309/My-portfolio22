@@ -1,0 +1,32 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+.color{
+    color: brown;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    /* background:orangered; */
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 700;
+    padding:10px 40px;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
